@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := DRG_sprout
+PRODUCT_RELEASE_NAME := B2N_sprout
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
@@ -24,7 +24,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
 PRODUCT_NAME := twrp_$(PRODUCT_DEVICE)
 PRODUCT_BRAND := nokia
-PRODUCT_MODEL := DRG_sprout
+PRODUCT_MODEL := B2N_sprout
 PRODUCT_MANUFACTURER := nokia
 
 # Inherit from hardware-specific part of the product configuration

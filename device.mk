@@ -1,7 +1,7 @@
 # Inherit from common AOSP config
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
-LOCAL_PATH := device/nokia/DRG_sprout
+LOCAL_PATH := device/nokia/B2N_sprout
 
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 27
@@ -61,4 +61,4 @@ PRODUCT_PACKAGES += \
 
 # libandroidicu
 PRODUCT_COPY_FILES += \
-    $(OUT_DIR)/target/product/DRG_sprout/obj/SHARED_LIBRARIES/libandroidicu_intermediates/libandroidicu.so:$(TARGET_COPY_OUT_RECOVERY)/root/system/lib64/libandroidicu.so
+    $(OUT_DIR)/target/product/B2N_sprout/obj/SHARED_LIBRARIES/libandroidicu_intermediates/libandroidicu.so:$(TARGET_COPY_OUT_RECOVERY)/root/system/lib64/libandroidicu.so

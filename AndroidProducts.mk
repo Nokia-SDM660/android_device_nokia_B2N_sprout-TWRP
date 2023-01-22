@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_DRG_sprout.mk
+    $(LOCAL_DIR)/twrp_B2N_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_DRG_sprout-eng
+    twrp_B2N_sprout-eng
